@@ -38,6 +38,7 @@ pl5 <- pl4 + scale_x_continuous(name = "Corruption Perceptions Index, 2011 (10=l
 #adding a  Y continuous scale 
 pl6 <- pl5 + scale_y_continuous(name = "Human Development Index, 2011 (1=Best)", limits = c(0.2, 1.0))
 
+#adding a title
 pl7 <- pl6 + ggtitle("Corruption and Human Development")
 
 
